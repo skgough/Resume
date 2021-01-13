@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  13 JAN 2021 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.12)  13 JAN 2021 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Stephen/Downloads/source-resume.tex
-(c:/Users/Stephen/Downloads/source-resume.tex
+**c:/Users/Stephen/GitHub/Resume/source-resume.tex
+(c:/Users/Stephen/GitHub/Resume/source-resume.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -275,7 +275,7 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count275
 \l__pdf_internal_box=\box95
-) (c:/Users/Stephen/Downloads/source-resume.aux)
+) (c:/Users/Stephen/GitHub/Resume/source-resume.aux)
 \openout1 = `source-resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -321,7 +321,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 72.
 LaTeX Info: Redefining \pageref on input line 72.
 LaTeX Info: Redefining \nameref on input line 72.
- (c:/Users/Stephen/Downloads/source-resume.out) (c:/Users/Stephen/Downloads/source-resume.out)
+ (c:/Users/Stephen/GitHub/Resume/source-resume.out) (c:/Users/Stephen/GitHub/Resume/source-resume.out)
 \@outlinefile=\write3
 \openout3 = `source-resume.out'.
 
@@ -342,20 +342,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (c:/Users/Stephen/Downloads/source-resume.aux)
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (c:/Users/Stephen/GitHub/Resume/source-resume.aux)
 Package rerunfilecheck Info: File `source-resume.out' has not changed.
 (rerunfilecheck)             Checksum: 3E97E9881EB52BE1F5F09B6921FD5A09;130.
  ) 
 Here is how much of TeX's memory you used:
  7054 strings out of 479304
- 106432 string characters out of 5871213
+ 106484 string characters out of 5871213
  444234 words of memory out of 5000000
  24129 multiletter control sequences out of 15000+600000
  409372 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,249b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,253b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on c:/Users/Stephen/Downloads/source-resume.pdf (1 page, 88181 bytes).
+Output written on c:/Users/Stephen/GitHub/Resume/source-resume.pdf (1 page, 88537 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
