@@ -160,7 +160,7 @@ ul {
 }
 @media print {
     body {
-        font-size: 12pt;
+        font-size: 10pt;
         padding: 0;
         overflow-y: hidden;
     }
