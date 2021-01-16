@@ -1,0 +1,149 @@
+\documentclass[letterpaper,11pt]{article}
+
+\newcommand{\AEDCskillA}{Skill A}
+\newcommand{\AEDCskillB}{Skill B}
+\newcommand{\GEskillA}{Skill A}
+\newcommand{\GEskillB}{Skill B}
+\newcommand{\AccMachSkill}{Skill}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{5pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\usepackage{geometry}
+ \geometry{
+  letterpaper,
+  top=.75in,
+  right=.75in,
+  bottom=.75in,
+  left=.75in
+ }
+
+\urlstyle{same}      
+\linespread{1.3}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \huge \textbf{Stephen Gough} & \textbf{Email:} skgough@gmail.com\\
+  & \textbf{Phone:} 423-571-1304 \\
+  \vspace{-1cm}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\vspace{.25cm}
+\resumeSubheading
+{Tennessee Technological University}{Cookeville, Tennessee}
+{BS in Mechanical Engineering}{2014 - 2018}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+
+\section{Experience}
+\vspace{.25cm}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Arnold Engineering Development Complex}{Tullahoma, Tennessee}
+{Aerospace Engineer}{2019 - 2021}
+
+\begin{tabular}{p{2in} | c p{4.51in}}
+  \textbf{Technologies/Skills}\newline
+  \AEDCskillA                 \newline
+  \AEDCskillB                 \newline
+  Excel/VBA                   \newline
+  Fortran                     \newline
+  Project management          \newline
+  Client communication
+   & \hspace{.25in}
+   &
+  Dual role as project manager and test engineer in the Propulsion Wind Tunnel. As a test manager, conducted meetings with defense contractors and DoD components to gather requirements, tracked finances, handled logistics, managed contractors and security personnel, and navigated regulatory and safety requirements. As test engineer, conducted on-the-fly data analysis, decision making, and troubleshooting in a high-information environment.
+\end{tabular}
+\vspace{.25in}
+\resumeSubheading
+{General Electric Appliances}{LaFayette, Georgia}
+{Internship}{2018 - 2019}
+
+\begin{tabular}{p{2in} | c p{4.51in}}
+  \textbf{Technologies/Skills}\newline
+  \GEskillA                   \newline
+  \GEskillB                   \newline
+  SolidWorks                  \newline
+  MATLAB                      \newline
+   & \hspace{.25in}
+   &
+   Internship focused on ergonomic design of assembly line fixtures designed to eliminate workforce repetitive strain injuries and optimize production workflow under the Six Sigma framework. Duties included identifying problems on the assembly line, producing design solutions and collaborating with the model shop on fabrication and installation.
+\end{tabular}
+\vspace{.25in}
+\resumeSubheading
+{Accurate Machine Products Corp.}{Johnson City, Tennessee}
+{Quality Control Inspector}{2014 - 2016}
+\begin{tabular}{p{2in} | c p{4.51in}}
+  \textbf{Technologies/Skills}\newline
+  \AccMachSkill               \newline
+  PC-DMIS                     \newline
+  Shop floor communication    \newline  
+   & \hspace{.25in}
+   &
+  Inspector in the Quality Assurance department. Accurate Machine Products Corporation is a custom machining and fabrication shop with a specialty in Type B Nuclear Shipping Packaging for fissile-grade materials. Duties included detailed mechanical inspection using a wide variety of precision measuring instruments, nondestructive testing, operation and programming of coordinate measurement machines, and independent inspection of materials involving in-depth interpretation of customer specifications and drawings.
+\end{tabular}
+
+\resumeSubHeadingListEnd
+\end{document}
